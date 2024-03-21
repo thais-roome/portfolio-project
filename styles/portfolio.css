@@ -48,6 +48,7 @@ a {
   font-family: var(--default-font-family);
   font-weight: normal;
 }
+
 .content-container {
   padding: 50px 0;
   text-align: center;
@@ -104,6 +105,9 @@ a {
 .small-logo {
   margin-top: 0;
   max-width: 40px;
+}
+.col-lg-6 {
+  width: 100%;
 }
 nav {
   padding: 20px 0;
