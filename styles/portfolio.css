@@ -7,6 +7,9 @@
 body {
   font-family: var(--default-font-family);
 }
+.background-style {
+  background-color: var(--secondary-color);
+}
 h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
@@ -16,7 +19,7 @@ h1 {
 h2 {
   font-size: 64px;
 }
-h4 {
+h3 {
   font-family: var(--heading-font-family);
   font-size: 48px;
 }
@@ -31,7 +34,7 @@ a {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 0;
+  padding: 80px 0;
 }
 .hero p {
   font-size: 36px;
@@ -160,9 +163,6 @@ footer .contact-box p {
   margin: 0;
 }
 @media (max-width: 900px) {
-  .hero {
-    padding: 80px 20px;
-  }
   h1 {
     font-size: 44px;
     line-height: 2;
@@ -177,7 +177,7 @@ footer .contact-box p {
   footer .contact-box {
     padding: 30px;
   }
-  h4 {
+  h3 {
     font-size: 28px;
   }
 }
