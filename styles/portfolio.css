@@ -167,6 +167,12 @@ footer .contact-box p {
   margin: 0;
 }
 @media (max-width: 900px) {
+  .hero {
+    padding: 80px 20px;
+  }
+  nav a {
+    font-size: 16px;
+  }
   h1 {
     font-size: 44px;
     line-height: 2;
@@ -183,6 +189,9 @@ footer .contact-box p {
   }
   h3 {
     font-size: 28px;
+  }
+  img {
+    margin-top: 100px;
   }
 }
 img {
